@@ -20,7 +20,7 @@ return `  ≡ *INFORMACION*
 ├╼ Versi Navegador: *${Lxa.browserDescription[2]}*
 ├╼ Velocidad : ${process.uptime()}
 ├╼ Tiempo Ejecucion : *${kyun(uptime)}*
-├╼ Grupo del Bot : https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK
+├╼ 
 └─────────────
 ┌───⊷ *DISPOSITIVO* ⊶
 ├╼ Nombre : *${Lxa.user.name}*
@@ -30,19 +30,11 @@ return `  ≡ *INFORMACION*
 ├╼ Versi Navegador: *${Lxa.browserDescription[2]}*
 ├╼ Velocidad : ${process.uptime()}
 ├╼ Tiempo Ejecucion : *${kyun(uptime)}*
-├╼ Grupo del Bot : https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK
 ├╼ RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ├╼ MCC : ${mcc}
 ├╼ MNC : ${mnc}
 ├╼ Version Wa : ${Lxa.user.phone.wa_version}
-└──────────────
-
-
-▢ Github :
-https://github.com/FG98F/fgbotv3
-
-▢ DEV :
-https://github.com/FG98F
+└────────────
 `
 }
 exports.info = info
