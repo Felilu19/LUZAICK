@@ -24,12 +24,8 @@ const menu = (tanggal, jam, pushname, sender, Fg, prefix, user, uptime, isGroupA
 ├╼ Numero : *${sender.split("@")[0]}*
 └──────────────
   ≡  *FG98 👨🏻‍💻*
-┌──────────────
-├╼ *Ig* : instagram.com/fg98._
-├╼ *Grupo* : t.me/AndroidWorldfg
-├╼ *Grupo Wha* : bit.ly/DyLuxfg
-└──────────────
-┌───⊷ *GRUPO* ⊶
+
+┌───⊷ *GRUPO* ⊶5
 ├╼ *${groupMetadata.subject}*
 ├╼ *Estado* : ${admin}
 ├╼ *Miembros del grupo* : _${groupMetadata.participants.length}_
