@@ -65,11 +65,7 @@ else if (!isGroup) return`▢ ${tanggal()}
 ├╼ Numero : *${sender.split("@")[0]}*
 └──────────────
   ≡  *FG98 👨🏻‍💻*
-┌──────────────
-├╼ *Ig* : instagram.com/fg98._
-├╼ *Grupo* : t.me/AndroidWorldfg
-├╼ *Grupo Wha* : bit.ly/DyLuxfg 
-└──────────────
+
 ┌───⊷ *BOT* ⊶
 ├╼ Nombre: *${Lxa.user.name}*
 ├╼ Version Bot : 3.8.3
